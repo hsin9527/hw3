@@ -27,7 +27,7 @@ int m_addr = FXOS8700CQ_SLAVE_ADDR1;
 void FXOS8700CQ_readRegs(int addr, uint8_t * data, int len);
 void FXOS8700CQ_writeRegs(uint8_t * data, int len);
 DigitalOut led1(LED1);
-InterruptIn sw3(SW3);
+InterruptIn sw3(SW3); 
 EventQueue queue1;
 Thread thread1;
 float t[3];

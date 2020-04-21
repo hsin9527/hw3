@@ -7,7 +7,7 @@ import time
 t = np.arange(0,10,0.1)
 x = np.zeros(100) 
 y = np.zeros(100)
-z = np.zeros(100) 
+z = np.zeros(100)  
 tilt = np.zeros(100)
 
 serdev = '/dev/ttyACM0'
